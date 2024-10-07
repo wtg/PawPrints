@@ -135,6 +135,9 @@ static/js/global.js
 # Compressed assets
 static/CACHE/*
 
+# Macs 
+**/.DS_Store
+
 PawPrints - Make your mark.webarchive
 /pawprints/secrets.py
 

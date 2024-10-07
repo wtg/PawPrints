@@ -3,7 +3,7 @@ ENV PYTHONUNBUFFERED 1
 
 RUN apk update 
 RUN apk add postgresql-libs gcc
-RUN apk add musl-dev postgresql-client postgresql-dev libxslt-dev libxml2-dev pkgconfig xmlsec-dev
+RUN apk add musl-dev postgresql-client postgresql-dev libxslt-dev libxml2-dev pkgconfig xmlsec-dev libffi-dev
 
 RUN pip install -U pip
 
