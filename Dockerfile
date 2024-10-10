@@ -4,7 +4,7 @@ ENV PYTHONUNBUFFERED 1
 RUN apk update 
 RUN apk add postgresql-libs gcc
 RUN apk add musl-dev postgresql-client postgresql-dev libxslt-dev libxml2-dev pkgconfig xmlsec-dev libffi-dev xmlsec
-RUN apk build-base libressl libffi-dev libressl-dev libxslt-dev libxml2-dev xmlsec-dev xmlsec
+RUN apk add build-base libressl libffi-dev libressl-dev libxslt-dev libxml2-dev xmlsec-dev xmlsec
 
 RUN pip install -U pip
 
